@@ -1,0 +1,68 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$primary: #7045f2;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800&display=swap');
+@import "bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+html {
+    height: 100% !important;
+}
+
+body {
+    height: 100% !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Epilogue', sans-serif !important;
+}
+
+.section {
+    padding: 1rem 0;
+}
+
+.limitation-list {
+    list-style-type: none;
+}
+
+.home-img {
+    will-change: filter;
+}
+
+.home-img:hover {
+    transition: .2s ease-in-out;
+    filter: drop-shadow(0 0 5em rgb(112, 69, 242));
+}
+
+.typewriter {
+    margin-right: auto;
+    width: fit-content;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    border-right: 3px solid rgb(33, 37, 41);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    animation:
+        typing 2.5s steps(40, end),
+        blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(33, 37, 41); }
+}
