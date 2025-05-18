@@ -143,7 +143,7 @@ function Home() {
                             <div className="card border-0 rounded-4 p-2">
                                 <div className="card-body">
                                     <small className="card-text text-muted">"The app shows users the real-time availability of parking spots in several UiTM Shah Alam parking areas."</small>
-                                    <h6 className="mt-4">Nur Natasha</h6>
+                                    <h6 className="mt-4">Ardina Ilmuna</h6>
                                     <p>4.9 <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i></p>
                                 </div>
                             </div>
